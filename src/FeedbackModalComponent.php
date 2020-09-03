@@ -34,7 +34,7 @@ class FeedbackModalComponent extends Component
             'type' => $this->type,
             'email' => $this->email,
             'feedback' => $this->feedback,
-            'url' => $this->currentPage
+            'url' => $this->currentPage,
         ]);
 
         $this->emitSelf('change-send');

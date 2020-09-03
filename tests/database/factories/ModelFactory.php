@@ -8,6 +8,6 @@ $factory->define(\pschocke\FeedbackModal\AnonymousFeedback::class, function (Gen
         'email' => $faker->safeEmail,
         'type' => 'like',
         'feedback' => $faker->paragraph,
-        'url' => $faker->url
+        'url' => $faker->url,
     ];
 });

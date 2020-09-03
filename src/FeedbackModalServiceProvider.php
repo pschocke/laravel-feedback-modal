@@ -24,7 +24,6 @@ class FeedbackModalServiceProvider extends ServiceProvider
                     __DIR__ . "/../database/migrations/{$migrationFileName}.stub" => database_path('migrations/' . date('Y_m_d_His', time()) . '_' . $migrationFileName),
                 ], 'migrations');
             }
-
         }
 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'feedback-modal');
